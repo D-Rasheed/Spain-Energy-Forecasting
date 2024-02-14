@@ -8,9 +8,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import Ridge,LinearRegression
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import roc_curve, mean_absolute_error, r2_score
-from spain_energy_production_variables import*
-st.set_option('deprecation.showPyplotGlobalUse', False)
 
+st.set_option('deprecation.showPyplotGlobalUse', False)
+#ADD SOME SOMMENT FOR UNDERSTANDING
 # Importing data
 df_viz=pd.read_csv("D:\programming project feb 2024\Spain Energy Dataset\df_electricity_cleaned.csv")
 #Reading our Dataset
